@@ -1,16 +1,44 @@
-# React + Vite
+# Enterprise Employee Management System (EMS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Technology Stack
 
-Currently, two official plugins are available:
+### Frontend
+- React JS
+- Axios
+- React Router
+- Bootstrap
+- ChartJS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Backend
+- Java 21
+- Spring Boot
+- Spring Security
+- JWT
+- Hibernate
+- MySQL
 
-## React Compiler
+### Features
+- JWT Authentication
+- Employee CRUD
+- Department CRUD
+- Search
+- Filter
+- Pagination
+- Sorting
+- Analytics Dashboard
+- Employee Profile
+- Export CSV
+- Export PDF
+- Swagger
+- Docker
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Run Backend
 
-## Expanding the Oxlint configuration
+```bash
+mvn spring-boot:run
+Run Frontend
+npm install
+npm run dev
+Swagger
+http://localhost:8080/swagger-ui/index.html
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
